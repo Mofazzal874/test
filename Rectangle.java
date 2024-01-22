@@ -4,3 +4,9 @@ public class Rectangle implements Shape {
         System.out.println("Inside Rectangle::draw() method.");
     }
 }
+
+
+
+
+
+
