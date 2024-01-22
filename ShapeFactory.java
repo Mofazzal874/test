@@ -1,6 +1,6 @@
 public class ShapeFactory {
     
-    private static final ShapeFactory instance = new ShapeFactory();
+    private static final ShapeFactory instance = null;
 
     private ShapeFactory() {
     }
@@ -13,9 +13,9 @@ public class ShapeFactory {
         if (shapeType == null) {
             return null;
         }
-        if (shapeType.equalsIgnoreCase("RECTANGLE")) {
+        if (shapeType == "RECTANGLE") {
             return new Rectangle();
-        } else if (shapeType.equalsIgnoreCase("SQUARE")) {
+        } else if (shapeType== "CIRCLE") {
             return new Square();
         }
         return null;
